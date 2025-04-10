@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>PayloadType</key>
+    <string>Configuration</string>
+    <key>PayloadContent</key>
+    <key>PayloadIdentifier</key>
+    <string>com.example.enrollment.profile</string>
+    <key>PayloadUUID</key>
+    <string>789e0123-f45g-67h8-a901-426614174002</string>
+    <key>PayloadVersion</key>
+    <integer>1</integer>
+    <key>PayloadDisplayName</key>
+    <string>MDM Enrollment Profile</string>
+    <key>PayloadDescription</key>
+    <string>This profile enrolls your device into Example MDM.</string>
+    <key>PayloadOrganization</key>
+    <string>Citrix</string>
+    <array>
+        <dict>
+            <key>PayloadType</key>
+            <string>com.apple.mdm</string>
+            <key>ServerURL</key>
+            <string>https://mdm.example.com/enroll</string>
+            <key>CheckInURL</key>
+            <string>https://mdm.example.com/checkin</string>
+            <key>Topic</key>
+            <string>com.apple.mgmt.external.12345678-1234-1234-1234-1234567890ab</string>
+            <key>AssignedManagedAppleID</key>
+            <string>junkang.du@citrixcom2.appleid.com</string>
+            <key>EnrollmentMode</key>
+            <string>BYOD</string>
+        </dict>
+    </array>
+</dict>
+</plist>
